@@ -1,6 +1,8 @@
 This is an implementation of JRMPC on aligning point clouds in consecutive pairs, and compute the transformation matrix relative to initial guess (identity) refering to Kitti format. 
 See kitti.m for detail. The alignment result can be visualized using the alignPlot function. 
 
+Note that JRMPC is an algorithm aiming at jointly aligning sequences, not in pairwise. Just for test use.
+
 Reference to original file:
 This software contains the matlab code of the JRMPC algorithm, which is
 presented in the paper 
